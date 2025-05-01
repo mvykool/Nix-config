@@ -1,3 +1,3 @@
 export const TopbarName = () => {
-  return <div>topbar name</div>;
+  return <div>Hello, User</div>;
 };
