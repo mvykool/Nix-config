@@ -2,12 +2,14 @@ import { Link } from "@tanstack/react-router";
 
 export const SidebarContainer = () => {
   return (
-    <nav className="flex flex-col gap-4 h-screen">
-      <span>logo</span>
-      <div className="flex flex-col">
+    <nav className="bg-gray-900 flex flex-col gap-4 h-screen p-10 w-58">
+      <span className="flex items-center gap-2 text-lg font-bold">
+        <i className="bx bx-radar text-rose-400"></i>Pulse Radar
+      </span>
+      <div className="flex flex-col gap-5 mt-10">
         <Link
           to="/"
-          className="flex items-center"
+          className="flex items-center gap-2"
           activeProps={{
             className: "font-bold",
           }}
@@ -18,7 +20,7 @@ export const SidebarContainer = () => {
         </Link>{" "}
         <Link
           to="/about"
-          className="flex items-center"
+          className="flex items-center gap-2"
           activeProps={{
             className: "font-bold",
           }}
@@ -28,7 +30,7 @@ export const SidebarContainer = () => {
         </Link>
         <Link
           to="/about"
-          className="flex items-center"
+          className="flex items-center gap-2"
           activeProps={{
             className: "font-bold",
           }}
@@ -38,7 +40,7 @@ export const SidebarContainer = () => {
         </Link>
         <Link
           to="/about"
-          className="flex items-center"
+          className="flex items-center gap-2"
           activeProps={{
             className: "font-bold",
           }}
@@ -48,7 +50,7 @@ export const SidebarContainer = () => {
         </Link>
         <Link
           to="/about"
-          className="flex items-center"
+          className="flex items-center gap-2"
           activeProps={{
             className: "font-bold",
           }}

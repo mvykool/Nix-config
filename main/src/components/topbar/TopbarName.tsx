@@ -1,3 +1,7 @@
 export const TopbarName = () => {
-  return <div>Hello, User</div>;
+  return (
+    <div>
+      <p className="text-xl font-semibold">Hello, User</p>
+    </div>
+  );
 };
