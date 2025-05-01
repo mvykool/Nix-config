@@ -8,9 +8,8 @@ export const Route = createRootRoute({
 
 function RootComponent() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white flex">
       <SidebarContainer />
-      <hr />
       <Outlet />
       <TanStackRouterDevtools position="bottom-right" />
     </div>

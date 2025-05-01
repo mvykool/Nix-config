@@ -2,9 +2,9 @@ import { Link } from "@tanstack/react-router";
 
 export const SidebarContainer = () => {
   return (
-    <nav className="flex flex-col gap-4">
+    <nav className="flex flex-col gap-4 h-screen">
       <span>logo</span>
-      <div>
+      <div className="flex flex-col">
         <Link
           to="/"
           activeProps={{
