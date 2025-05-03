@@ -3,6 +3,7 @@ import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import { SidebarContainer } from "../components/sidebar/SidebarContainer";
 import { TopbarContainer } from "../components/topbar/TopbarContainer";
 import { WalletContainer } from "../components/wallet/WalletContainer";
+import ConnectWallet from "../components/wallet/ConnectWallet";
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -18,6 +19,7 @@ function RootComponent() {
           {" "}
           <Outlet />
           <WalletContainer />
+          <ConnectWallet />
         </div>
       </div>
       <TanStackRouterDevtools position="bottom-right" />
