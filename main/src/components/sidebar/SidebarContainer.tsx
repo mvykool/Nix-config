@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 export const SidebarContainer = () => {
   return (
-    <nav className="bg-gray-900 flex flex-col gap-4 h-screen p-10 w-58">
+    <nav className="bg-gray-900 flex flex-col gap-4 min-h-screen p-10 w-58">
       <span className="flex items-center gap-2 text-lg font-bold">
         <i className="bx bx-radar text-rose-400"></i>Pulse Radar
       </span>

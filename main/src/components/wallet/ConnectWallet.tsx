@@ -28,7 +28,7 @@ const ConnectWallet: React.FC = () => {
   };
 
   return (
-    <div className="p-4 text-center bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center">
+    <div className="p-4 w-3/12 text-center bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center">
       {address ? (
         <>
           <h2 className="text-xl font-semibold mb-2">
