@@ -64,7 +64,7 @@ export const getEthBalance = async (address: string) => {
 
 // Get USDC balance via Etherscan
 export const getUsdcBalance = async (address: string) => {
-  const USDC_CONTRACT_ADDRESS = "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238";
+  const USDC_CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT;
   try {
     const response = await axios.get(ETHERSCAN_API_URL, {
       params: {
