@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import axios from "axios";
 
 const ETHERSCAN_API_URL = "https://api-sepolia.etherscan.io/api";
-const ETHERSCAN_API_KEY = "YOUR_API_KEY"; // Replace with your Etherscan API key
+const ETHERSCAN_API_KEY = import.meta.env.VITE_APIKEY;
 
 // Connect to MetaMask
 export const connectWallet = async () => {

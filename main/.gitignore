@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+# Vite environment files
+.env.local
+.env.*.local
 
 # Editor directories and files
 .vscode/*
