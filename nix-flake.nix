@@ -46,7 +46,9 @@
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#Maicols-MacBook-Air
-    darwinConfigurations."Maicols-MacBook-Air" = nix-darwin.lib.darwinSystem {
+    #
+    # REMEMBER TO SET HOSTNAME
+    darwinConfigurations."#hostname" = nix-darwin.lib.darwinSystem {
       modules = [ configuration ];
     };
   };
