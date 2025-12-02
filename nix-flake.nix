@@ -1,5 +1,5 @@
 {
-  description = "main Nix flake";
+  description = "simple Nix flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -45,7 +45,7 @@
   in
   {
     # Build darwin flake using:
-    # $ darwin-rebuild build --flake .#Maicols-MacBook-Air
+    # $ darwin-rebuild build --flake .#hostname
     #
     # REMEMBER TO SET HOSTNAME
     darwinConfigurations."#hostname" = nix-darwin.lib.darwinSystem {
